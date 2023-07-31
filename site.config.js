@@ -5,7 +5,7 @@ const CONFIG = {
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Empowering STEM Education in Communities Everywhere",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
+    email: "skillstemorg@gmail.com",
     linkedin: "morethanmin",
     github: "morethanmin",
     instagram: "",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "SkillStem",
+    description: "Welcome to SkillStem!",
   },
 
   // CONFIG configration (required)
