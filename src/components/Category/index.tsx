@@ -51,8 +51,8 @@ const StyledWrapper = styled.div`
   padding-right: 0.5rem;
   border-radius: 9999px;
   width: fit-content;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.25rem;
   opacity: 0.9;
-  color: ${colors.dark.gray1};
+  color: ${colors.dark.gray5};
 `
