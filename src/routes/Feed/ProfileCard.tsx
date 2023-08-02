@@ -38,7 +38,7 @@ const StyledWrapper = styled.div`
     border-radius: 1rem;
     width: 100%;
     background-color: ${({ theme }) =>
-      theme.scheme === "light" ? "white" : theme.colors.gray4};
+      theme.scheme === "light" ? theme.colors.gray11 : theme.colors.gray4};
     @media (min-width: 768px) {
       padding: 1rem;
     }
@@ -54,15 +54,14 @@ const StyledWrapper = styled.div`
         padding-bottom: 100%;
       }
     }
-    .mid {
+    .mid {7
       display: flex;
       padding: 0.5rem;
       flex-direction: column;
       align-items: center;
       .name {
-        font-size: 1.25rem;
+        font-size: 1.4rem;
         line-height: 1.75rem;
-        font-style: italic;
         font-weight: 700;
       }
       .role {
