@@ -56,7 +56,7 @@ const StyledWrapper = styled.div`
       display: flex;
       gap: 0.75rem;
       align-items: center;
-      font-size: 1.75rem
+      font-size: 1.25rem
     }
   }
 `
