@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "Empowering STEM Education in Communities Everywhere",
     email: "skillstemorg@gmail.com",
     linkedin: "morethanmin",
-    github: "morethanmin",
+    github: "ABlizzard07",
     instagram: "",
   },
   projects: [
