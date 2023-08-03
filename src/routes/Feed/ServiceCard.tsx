@@ -9,7 +9,7 @@ const ServiceCard: React.FC = () => {
   return (
     <>
       <StyledTitle>
-        <Emoji>🌟</Emoji> Service
+        <Emoji>🌟</Emoji> Contact
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.projects.map((project, idx) => (
@@ -42,7 +42,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   border-radius: 1rem;
   background-color: ${({ theme }) =>
-    theme.scheme === "light" ? "white" : theme.colors.gray4};
+    theme.scheme === "light" ? theme.colors.green6 : theme.colors.green8};
   > a {
     display: flex;
     padding: 0.75rem;
@@ -55,7 +55,7 @@ const StyledWrapper = styled.div`
     :hover {
       color: ${({ theme }) => theme.colors.gray12};
       background-color: ${({ theme }) => 
-      theme.scheme === "light" ? theme.colors.green6 : theme.colors.green8};
+      theme.scheme === "light" ? theme.colors.green8 : theme.colors.green10};
     }
     .icon {
       font-size: 1.5rem;
