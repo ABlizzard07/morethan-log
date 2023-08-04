@@ -57,7 +57,7 @@ const StyledWrapper = styled.div`
       color: ${({ theme }) =>
         theme.scheme === "light" ? theme.colors.gray1 : theme.colors.gray12};
       background-color: ${({ theme }) => 
-        theme.scheme === "light" ? theme.colors.green10 : theme.colors.green8};
+        theme.scheme === "light" ? theme.colors.green10 : theme.colors.green10};
     }
     .icon {
       font-size: 1.5rem;
