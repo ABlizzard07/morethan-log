@@ -49,13 +49,15 @@ const StyledWrapper = styled.div`
     gap: 0.75rem;
     align-items: center;
     border-radius: 1rem;
-    color: ${({ theme }) => theme.colors.gray11};
+    color: ${({ theme }) => 
+      theme.scheme === "light" ? theme.colors.gray1 : theme.colors.gray12};
     cursor: pointer;
 
     :hover {
-      color: ${({ theme }) => theme.colors.gray12};
+      color: ${({ theme }) =>
+        theme.scheme === "light" ? theme.colors.gray1 : theme.colors.gray12};
       background-color: ${({ theme }) => 
-      theme.scheme === "light" ? theme.colors.green10 : theme.colors.green8};
+        theme.scheme === "light" ? theme.colors.green10 : theme.colors.green8};
     }
     .icon {
       font-size: 1.5rem;
