@@ -42,7 +42,7 @@ const PostList: React.FC<Props> = ({ q }) => {
         )
       }
       // order
-      if (currentOrder !== "asc") {
+      if (currentOrder !== "desc") {
         newFilteredPosts = newFilteredPosts.reverse()
       }
 

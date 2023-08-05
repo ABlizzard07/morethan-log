@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "Empowering STEM Education in Communities Everywhere",
     email: "skillstemorg@gmail.com",
     linkedin: "morethanmin",
-    github: "morethanmin",
+    github: "ABlizzard07",
     instagram: "",
   },
   projects: [
@@ -49,7 +49,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
+      repo: "ABlizzard07/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },

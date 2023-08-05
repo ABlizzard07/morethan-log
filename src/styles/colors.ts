@@ -3,15 +3,10 @@ import {
   blue,
   red,
   green,
-  grayDark,
-  blueDark,
-  redDark,
-  greenDark,
   indigo,
-  indigoDark,
 } from "@radix-ui/colors"
 
-export type Colors = typeof colors.light & typeof colors.dark
+export type Colors = typeof colors.light
 
 export const colors = {
   light: {
@@ -20,12 +15,5 @@ export const colors = {
     ...blue,
     ...red,
     ...green,
-  },
-  dark: {
-    ...indigoDark,
-    ...grayDark,
-    ...blueDark,
-    ...redDark,
-    ...greenDark,
   },
 }
