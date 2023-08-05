@@ -49,7 +49,7 @@ const StyledWrapper = styled.div`
     margin-bottom: 1rem;
     border-radius: 1rem;
     background-color: ${({ theme }) =>
-      theme.scheme === "light" ? theme.colors.blue8 : theme.colors.gray4};
+      theme.scheme === "light" ? theme.colors.blue9 : theme.colors.blue7};
     > .wrapper {
       display: flex;
       gap: 0.5rem;
