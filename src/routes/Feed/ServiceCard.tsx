@@ -42,7 +42,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   border-radius: 1rem;
   background-color: ${({ theme }) =>
-    theme.scheme === "light" ? theme.colors.green6 : theme.colors.green9};
+    theme.scheme === "light" ? theme.colors.green7 : theme.colors.green9};
   > a {
     display: flex;
     padding: 0.75rem;
@@ -57,7 +57,7 @@ const StyledWrapper = styled.div`
       color: ${({ theme }) =>
         theme.scheme === "light" ? theme.colors.gray1 : theme.colors.gray12};
       background-color: ${({ theme }) => 
-        theme.scheme === "light" ? theme.colors.green7 : theme.colors.green10};
+        theme.scheme === "light" ? theme.colors.green8 : theme.colors.green10};
     }
     .icon {
       font-size: 1.5rem;
