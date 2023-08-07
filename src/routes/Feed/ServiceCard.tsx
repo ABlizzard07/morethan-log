@@ -41,6 +41,7 @@ const StyledWrapper = styled.div`
   margin-bottom: 2.25rem;
   flex-direction: column;
   border-radius: 1rem;
+  text-color: white;
   background-color: ${({ theme }) =>
     theme.scheme === "light" ? theme.colors.green7 : theme.colors.green9};
   > a {
