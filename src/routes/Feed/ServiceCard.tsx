@@ -41,7 +41,6 @@ const StyledWrapper = styled.div`
   margin-bottom: 2.25rem;
   flex-direction: column;
   border-radius: 1rem;
-  text-color: white;
   background-color: ${({ theme }) =>
     theme.scheme === "light" ? theme.colors.green7 : theme.colors.green9};
   > a {
@@ -51,7 +50,7 @@ const StyledWrapper = styled.div`
     align-items: center;
     border-radius: 1rem;
     color: ${({ theme }) => 
-      theme.scheme === "light" ? theme.colors.gray1 : theme.colors.gray12};
+      theme.scheme === "light" ? theme.colors.blue8 : theme.colors.gray12};
     cursor: pointer;
 
     :hover {
