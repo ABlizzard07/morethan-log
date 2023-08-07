@@ -42,7 +42,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   border-radius: 1rem;
   background-color: ${({ theme }) =>
-    theme.scheme === "light" ? theme.colors.green7 : theme.colors.green9};
+    theme.scheme === "light" ? theme.colors.green1 : theme.colors.green9};
   > a {
     display: flex;
     padding: 0.75rem;
