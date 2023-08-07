@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `Learn More`,
-      href: "/about",
+      href: "/",
     },
   ],
   // blog setting (required)
