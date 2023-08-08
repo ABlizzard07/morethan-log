@@ -49,8 +49,6 @@ const StyledWrapper = styled.div`
     gap: 0.75rem;
     align-items: center;
     border-radius: 1rem;
-    color: ${({ theme }) => 
-      theme.scheme === "light" ? theme.colors.gray10 : theme.colors.gray12};
     cursor: pointer;
 
     :hover {
