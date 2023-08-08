@@ -71,7 +71,7 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   border-radius: 1rem;
   background-color: ${({ theme }) =>
-    theme.scheme === "light" ? "white" : theme.colors.gray4};
+    theme.scheme === "light" ? theme.colors.yellow7 : theme.colors.yellow9};
   a {
     display: flex;
     padding: 0.75rem;
@@ -83,7 +83,8 @@ const StyledWrapper = styled.div`
 
     :hover {
       color: ${({ theme }) => theme.colors.gray12};
-      background-color: ${({ theme }) => theme.colors.gray5};
+      background-color: ${({ theme }) => 
+        theme.scheme === "light" ? theme.colors.yellow8 : theme.colors.yellow10};
     }
     .icon {
       font-size: 1.5rem;
