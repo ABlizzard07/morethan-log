@@ -71,20 +71,18 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   border-radius: 1rem;
   background-color: ${({ theme }) =>
-    theme.scheme === "light" ? theme.colors.yellow7 : theme.colors.yellow9};
+    theme.scheme === "light" ? theme.colors.red7 : theme.colors.red9};
   a {
     display: flex;
     padding: 0.75rem;
     gap: 0.75rem;
     align-items: center;
     border-radius: 1rem;
-    color: ${({ theme }) => theme.colors.gray11};
     cursor: pointer;
 
     :hover {
-      color: ${({ theme }) => theme.colors.gray12};
       background-color: ${({ theme }) => 
-        theme.scheme === "light" ? theme.colors.yellow8 : theme.colors.yellow10};
+        theme.scheme === "light" ? theme.colors.red8 : theme.colors.red10};
     }
     .icon {
       font-size: 1.5rem;
