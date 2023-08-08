@@ -55,7 +55,7 @@ const StyledWrapper = styled.div`
 
     :hover {
       color: ${({ theme }) =>
-        theme.scheme === "light" ? theme.colors.gray1 : theme.colors.gray12};
+        theme.scheme === "light" ? theme.colors.gray2 : theme.colors.gray12};
       background-color: ${({ theme }) => 
         theme.scheme === "light" ? theme.colors.green8 : theme.colors.green10};
     }
