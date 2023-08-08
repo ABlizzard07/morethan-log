@@ -50,12 +50,12 @@ const StyledWrapper = styled.div`
     align-items: center;
     border-radius: 1rem;
     color: ${({ theme }) => 
-      theme.scheme === "light" ? theme.colors.gray3 : theme.colors.gray12};
+      theme.scheme === "light" ? theme.colors.gray6 : theme.colors.gray12};
     cursor: pointer;
 
     :hover {
       color: ${({ theme }) =>
-        theme.scheme === "light" ? theme.colors.gray2 : theme.colors.gray12};
+        theme.scheme === "light" ? theme.colors.gray6 : theme.colors.gray12};
       background-color: ${({ theme }) => 
         theme.scheme === "light" ? theme.colors.green8 : theme.colors.green10};
     }
