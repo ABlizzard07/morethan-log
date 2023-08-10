@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Learn More`,
-      href: "https://pnlowt0ixdq.typeform.com/to/njRuaarR",
+      name: `Get in Touch`,
+      href: "https://forms.gle/3npPLNhmoqLLDBVr6",
     },
   ],
   // blog setting (required)
