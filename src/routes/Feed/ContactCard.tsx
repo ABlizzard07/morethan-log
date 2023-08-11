@@ -24,16 +24,6 @@ const ContactCard: React.FC = () => {
             <div className="name">youtube</div>
           </a>
         )}
-        {CONFIG.profile.github && (
-          <a
-            href={`https://github.com/${CONFIG.profile.github}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
-          </a>
-        )}
         {CONFIG.profile.instagram && (
           <a
             href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
