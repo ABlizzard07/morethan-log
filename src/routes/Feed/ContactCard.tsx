@@ -2,7 +2,6 @@ import { CONFIG } from "site.config"
 import React from "react"
 import {
   AiOutlineInstagram,
-  AiOutlineGithub,
   AiOutlineMail,
   AiOutlineYoutube,
   AiFillLinkedin,
@@ -16,7 +15,7 @@ const ContactCard: React.FC = () => {
       <StyledWrapper>
         {CONFIG.profile.youtube && (
           <a
-            href={`https://youtube.com/channel/${CONFIG.profile.github}`}
+            href={`https://youtube.com/channel/${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
           >
