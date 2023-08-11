@@ -8,7 +8,8 @@ const CONFIG = {
     email: "skillstemorg@gmail.com",
     linkedin: "morethanmin",
     github: "ABlizzard07",
-    instagram: "",
+    instagram: "skillstem",
+    youtube: "UC_BhJ_mpIXLBxx-qkFd2kiw",
   },
   projects: [
     {

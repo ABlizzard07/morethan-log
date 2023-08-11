@@ -4,6 +4,7 @@ import {
   AiOutlineInstagram,
   AiOutlineGithub,
   AiOutlineMail,
+  AiOutlineYoutube,
   AiFillLinkedin,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
@@ -13,6 +14,16 @@ const ContactCard: React.FC = () => {
     <>
       <StyledTitle>💬 Contact</StyledTitle>
       <StyledWrapper>
+        {CONFIG.profile.youtube && (
+          <a
+            href={`https://youtube.com/channel/${CONFIG.profile.github}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineYoutube className="icon" />
+            <div className="name">youtube</div>
+          </a>
+        )}
         {CONFIG.profile.github && (
           <a
             href={`https://github.com/${CONFIG.profile.github}`}
