@@ -68,7 +68,7 @@ const StyledWrapper = styled.div`
   .list {
     display: flex;
     margin-bottom: 1.5rem;
-    gap: 0.25rem;
+    gap: 0.20rem;
     overflow: scroll;
 
     scrollbar-width: none;
