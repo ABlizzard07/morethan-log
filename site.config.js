@@ -1,15 +1,14 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "SkillStem",
+    name: "Aashish Ananth",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "",
-    bio: "Empowering STEM Education in Communities Everywhere",
-    email: "skillstemorg@gmail.com",
+    bio: "Aspiring business leader looking to make strides in the tech industry.",
+    email: "aashu.ananth@gmail.com",
     github: "ABlizzard07",
-    linkedin: "morethanmin",
-    instagram: "skillstem",
-    youtube: "UC_BhJ_mpIXLBxx-qkFd2kiw",
+    linkedin: "aashish-anantharaman-621aa0246/",
+    instagram: "aashisha007",
   },
   projects: [
     {
@@ -19,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "SkillStem",
-    description: "Welcome to SkillStem!",
+    title: "Aashish's Area",
+    description: "Welcome to my area, where I share my thoughts, experiences and projects!",
   },
 
   // CONFIG configration (required)
