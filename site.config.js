@@ -9,6 +9,7 @@ const CONFIG = {
     github: "ABlizzard07",
     linkedin: "aashish-anantharaman-621aa0246/",
     instagram: "aashisha007",
+    youtube: "UC_BhJ_mpIXLBxx-qkFd2kiw",
   },
   projects: [
     {
@@ -19,7 +20,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "Aashish's Area",
-    description: "Welcome to my area, where I share my thoughts, experiences and projects!",
+    description: "Welcome to my area, where I share my thoughts, experiences, and projects",
   },
 
   // CONFIG configration (required)
